@@ -6,6 +6,9 @@ $student= array(
     "leeftijd" => 16
 
 );
-
-echo "Mijn naam is" . " " . $student['naam'] . " " . "mijn achternaam is" . " " . $student['achternaam'] . " " . "ik zit in klas" . " " . $student['klas'] . " " . "ik ben" . " " . $student['leeftijd'] . " " . "jaar oud.";
 ?>
+
+<ul><?php echo "Mijn naam is" . " " . $student['naam']?></ul>  
+<ul><?php echo "Mijn achternaam is" . " " . $student['achternaam']?></ul> 
+<ul><?php echo "Ik zit in klas" . " " . $student['klas'] ?></ul> 
+<ul><?php echo "Ik ben" . " " . $student['leeftijd'] . " " . "jaar oud."?></ul>
