@@ -1,10 +1,10 @@
 <?php
 $student  = array(
-    "voornaam"    => "Jan",
-    "achternaam"  => "Janssen",
-    "klas"        => "9A",
-    "Leeftijd"    => 17,
-    "Woonplaats"  => "Amstelveen"
+    "voornaam"    => "Vasco",
+    "achternaam"  => "Overes",
+    "klas"        => "LCTSDO1D",
+    "Leeftijd"    => 16,
+    "Woonplaats"  => "Uithoorn"
   );
   foreach($student as $key => $value){
     echo $key . ": " . $value . "<br>";
