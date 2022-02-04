@@ -1,6 +1,6 @@
 # PHP-ADVANCED - LOOPS
 
-## Taak 01 - While loop
+## Opdracht-2.1 - While loop
 
 ## Uitleg
 

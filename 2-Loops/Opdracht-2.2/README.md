@@ -1,6 +1,6 @@
 # PHP-ADVANCED - LOOPS
 
-## Taak 01 - For loop
+## Opdracht-2.2 - For loop
 
 ## Uitleg
 

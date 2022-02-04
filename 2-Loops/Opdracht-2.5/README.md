@@ -1,6 +1,6 @@
 # PHP-Advanced-Loops-Taak-05
 
-## Loops - Foreach deel3
+## Opdracht-2.5 - Foreach deel3
 
 ## Uitleg
 
