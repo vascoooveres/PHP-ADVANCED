@@ -1,7 +1,7 @@
 # PHP-Advanced-Loops-Taak-03
 
 
-## Loops - Foreach deel1
+## Opdracht-2.3 - Foreach deel1
 
 
 ## Uitleg
