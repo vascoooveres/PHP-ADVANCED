@@ -9,19 +9,19 @@
 <body>
 
 <?php
-    function maakRij($ranja, $GT){
+    function maakRij($variable1, $variable2){
         echo "<tr>";
-        echo "<td style='border: ".$_POST['border-dikte']."px solid; color:".$_POST['color']."; padding:".$_POST['padding']."px;'>$ranja</td>";
-        echo "<td style='border: ".$_POST['border-dikte']."px solid; color:".$_POST['color']."; padding:".$_POST['padding']."px;'>$GT</td>";
+        echo "<td style='border: ".$_POST['border-dikte']."px solid; background:".$_POST['color']."; padding:".$_POST['padding']."px;'>$variable1</td>";
+        echo "<td style='border: ".$_POST['border-dikte']."px solid; background:".$_POST['color']."; padding:".$_POST['padding']."px;'>$variable2</td>";
         echo "</tr>";
     }
 
     $mezelf = [
-    'naam'     => $_POST['naam'],
-    'leeftijd' => $_POST['leeftijd'],
-    'lengte'   => $_POST['lengte'],
-    'sport'    => $_POST['sport'],
-    'hobbies'  => $_POST['hobbies'],
+    'Naam'     => $_POST['naam'],
+    'Leeftijd' => $_POST['leeftijd'],
+    'Lengte'   => $_POST['lengte'],
+    'Sport'    => $_POST['sport'],
+    'Hobbies'  => $_POST['hobbies'],
     ]; 
 
     echo "<table style='border:  ".$_POST['border-dikte']."px solid' width='300' cellspacing='0'>";
