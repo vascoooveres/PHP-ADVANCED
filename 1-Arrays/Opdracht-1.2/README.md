@@ -1,27 +1,27 @@
 # PHP-ADVANCED - ARRAYS
 
-## Taak 02 - Associatieve Arrays
+## 1.2 Opdracht - Associatieve Arrays
 
 ## Uitleg
 
 Een associatieve array bestaat uit een __keys__ en een __values__.
 
 ```php
-$persoon["voornaam"]   = "Marc";
-$persoon["achternaam"] = "Overmars";
+$persoon["voornaam"]   = "Edwin";
+$persoon["achternaam"] = "Van der Sar";
 $persoon["club"]       = "Ajax";
-$persoon["leeftijd"]   = 49;
+$persoon["leeftijd"]   = 50;
 ```
 
 In bovenstaand voorbeeld zijn
 
 - __de keys__  : `voornaam`, `achternaam`, `club`, `leeftijd`
-- __de values__: `Marc`, `Overmars`, `Ajax`, `49`
+- __de values__: `Edwin`, `Van der Sar`, `Ajax`, `49`
 
 Om een bepaalde value (waarde) te tonen op het scherm heb je dus een key (sleutel) nodig. Net als bij een kluisje op school.
 
 Als je bijvoorbeeld de volgende zin op het scherm wilt tonen
-> "Marc Overmars is al jaren actief bij Ajax"
+> "Edwin Van der Sar is al jaren actief bij Ajax"
 
 ```php
 <?php
